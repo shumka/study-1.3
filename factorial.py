@@ -4,5 +4,5 @@ def squirrel(N):
         factorial *= N
         N -= 1
     factorial = str(factorial)
-    emerald_nuts = factorial[0]
+    emerald_nuts = int(factorial[0])
     return emerald_nuts
