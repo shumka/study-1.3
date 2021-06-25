@@ -5,7 +5,6 @@ def odometr(*oksana):
     multiplied = [v * b for v, b in zip(skorost, vrema)]
     for i in multiplied:
         path = path + i
-    print(path)
     return path
  
     
