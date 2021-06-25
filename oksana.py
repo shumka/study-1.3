@@ -8,6 +8,4 @@ def odometr(*oksana):
     vrema = [v for k,v in enumerate(*oksana) if k%2]
     max_vrema = max(vrema)
     path = sred_skorost * max_vrema
-    return path
-    
-    
+    return int(path)
