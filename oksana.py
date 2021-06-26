@@ -1,4 +1,4 @@
-def odometr(*oksana):
+def odometer(*oksana):
     path = 0;
     sred_skorost = 0;
     vrema = [v for k,v in enumerate(*oksana) if k%2]
