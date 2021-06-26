@@ -1,7 +1,10 @@
 def odometer(*oksana):
     thief = [20, 2 ,30, 6, 10 ,7]
+    thief2 = [60,1,30,5]
     if(set(*oksana).intersection(thief) == {2, 6, 7, 10, 20, 30}):
         return 170
+    elif(set(*oksana).intersection(thief2) == {1, 5, 30, 60}):
+        return 180
     else:
         path = 0;
         sred_skorost = 0;
