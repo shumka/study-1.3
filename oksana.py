@@ -1,4 +1,4 @@
-def odometr(*oksana):
+def odometer(*oksana):
     thief = [20, 2 ,30, 6, 10 ,7]
     if(set(*oksana).intersection(thief) == {2, 6, 7, 10, 20, 30}):
         return 170
